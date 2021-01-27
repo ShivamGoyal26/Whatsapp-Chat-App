@@ -1,11 +1,9 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-// import MainHeader from '../Headers/MainHeader';
 
-const HomeScreen = props => {
+const Chats = props => {
     return(
         <View style={styles.screen}>
-    {/* <MainHeader titleText="WhatsApp"/> */}
       <Text>Hello there</Text>
     </View>
     );
@@ -14,9 +12,7 @@ const HomeScreen = props => {
 const styles = StyleSheet.create({
     screen: {
             flex: 1,
-            // justifyContent: 'center',
-            // alignItems: 'center'
           }
 });
 
-export default HomeScreen;
+export default Chats;

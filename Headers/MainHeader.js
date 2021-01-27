@@ -17,8 +17,8 @@ const MainHeader = props => {
             </View>
 
             <View style={styles.headerRight}>
-            <Icon name='search-outline' size={26} color={'white'} />
-            <MaterialCommunityIcons name='dots-vertical' size={26} color={'white'} />
+            <Icon name='search-outline' size={22} color={'white'} />
+            <MaterialCommunityIcons name='dots-vertical' size={22} color={'white'} />
             </View>
          
 
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     },
     headerText: {
         marginLeft: 10,
-        // fontWeight: 'bold',
+        fontWeight: 'bold',
         fontSize: 20,
         color: 'white',
         letterSpacing: 1,

@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
-const SettingsScreen = props => {
+const Status = props => {
     return(
         <View style={styles.Screen}>
             <Text>Settings Screen</Text>
@@ -17,4 +17,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default SettingsScreen;
+export default Status;

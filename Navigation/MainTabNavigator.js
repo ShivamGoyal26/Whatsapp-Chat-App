@@ -2,15 +2,19 @@ import React from 'react';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 
-import HomeScreen from '../screens/HomeScreen';
-import SettingsScreen from '../screens/SettingsScreen';
+import Chats from '../screens/Chats';
+import Status from '../screens/Status';
 import Colors from '../constants/Colors';
+import Calls from '../screens/Calls';
+import Fontisto from 'react-native-vector-icons/Fontisto';
+
 const Tab = createMaterialTopTabNavigator();
 
 function MyTabs() {
   return (
       <NavigationContainer>
     <Tab.Navigator
+    initialRouteName = "Chats"
     tabBarOptions = {{
         
         activeTintColor: Colors.accentColor,
@@ -22,10 +26,26 @@ function MyTabs() {
             backgroundColor: Colors.accentColor,
             height: 3,
         },
+        labelStyle: {
+            fontWeight: 'bold',
+        },
+        showIcon: true,
     }}
     >
-      <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="Settings" component={SettingsScreen} />
+    <Tab.Screen 
+    name="Camera" 
+    options={{
+        tabBarIcon: () => <Fontisto name="camera" size = {18} color = 'white'/>,
+        tabBarLabel: () => null
+    }}
+    component={Chats} 
+
+    />
+      <Tab.Screen 
+      name="Chats" 
+      component={Chats} />
+      <Tab.Screen name="Status" component={Status} />
+      <Tab.Screen name="Calls" component={Calls} />
     </Tab.Navigator>
     </NavigationContainer>
   );
