@@ -3,11 +3,11 @@ export default [{
   users: [{
     id: 'u1',
     name: 'Vadim',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
+    imageUri: 'https://content.fortune.com/wp-content/uploads/2017/09/842917988.jpg',
   }, {
     id: 'u2',
     name: 'Lukas',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/2.jpg',
+    imageUri: 'https://www.byrdie.com/thmb/4_qMkGKchnx8ThwW1NCiaDAZ790=/1067x800/smart/filters:no_upscale()/rihana-5178adbd22af42f9b6a745ad502c2c8e.jpg',
   }],
   lastMessage: {
     id: 'm1',
@@ -23,7 +23,7 @@ export default [{
   }, {
     id: 'u3',
     name: 'Daniil',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/3.jpg',
+    imageUri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpzd4vtLIHZXr0JXkOFF1iKEdAaSuWBimvPA&usqp=CAU',
   }],
   lastMessage: {
     id: 'm2',
@@ -39,7 +39,7 @@ export default [{
   }, {
     id: 'u4',
     name: 'Alex',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/3.png',
+    imageUri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRapjZ44aXB_S6MzTIRoBitq-5KFvCO7olkdw&usqp=CAU',
   }],
   lastMessage: {
     id: 'm3',
@@ -55,7 +55,7 @@ export default [{
   }, {
     id: 'u5',
     name: 'Vlad',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/4.jpg',
+    imageUri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu8bUU6FY0rBrMRlKMlC8lSck0e8Wp04Cc_Q&usqp=CAU',
   }],
   lastMessage: {
     id: 'm4',
@@ -71,7 +71,7 @@ export default [{
   }, {
     id: 'u6',
     name: 'Elon Musk',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/5.jpg',
+    imageUri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRGLnPd6ma2qeqWfCv5ag37yEOD1ORurGorQ&usqp=CAU',
   }],
   lastMessage: {
     id: 'm5',
@@ -87,7 +87,7 @@ export default [{
   }, {
     id: 'u7',
     name: 'Adrian',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/6.png',
+    imageUri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ40INDOASWKcXu2JOlgQ3s9eg4wxrRB4XqIw&usqp=CAU',
   }],
   lastMessage: {
     id: 'm6',
@@ -103,7 +103,7 @@ export default [{
   }, {
     id: 'u8',
     name: 'Borja',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/7.png',
+    imageUri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_s70fvzbQSNPSJ03LD1ehKsOeZYoIJhBdaQ&usqp=CAU',
   }],
   lastMessage: {
     id: 'm7',
@@ -119,7 +119,7 @@ export default [{
   }, {
     id: 'u9',
     name: 'Mom',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/8.png',
+    imageUri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiutMyL2b9Kd-jTNuIkqcQfQESP5vxiXqRZA&usqp=CAU',
   }],
   lastMessage: {
     id: 'm8',
@@ -135,7 +135,7 @@ export default [{
   }, {
     id: 'u10',
     name: 'Angelina Jolie',
-    imageUri: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/9.png',
+    imageUri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjHpkvyQdSiK5EgQJbbo9QTpIn6yQYNgxXaQ&usqp=CAU',
   }],
   lastMessage: {
     id: 'm9',
