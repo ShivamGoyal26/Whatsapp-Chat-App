@@ -6,11 +6,9 @@ import chatRooms from '../data/ChatRooms';
 const Chats = props => {
     return(
         <View style={styles.screen}>
-      {/* <ChatListItem chatRoom = {chatRooms[0]}/> */}
       <FlatList 
-      // style={{width: '100%'}}
       data={chatRooms}
-      renderItem ={({item}) => <ChatListItem chatRoom={item}/> }
+      renderItem ={({item}) => <ChatListItem chatRoom={item}  /> }
       keyExtractor={(item) => item.id}
       /> 
     </View>

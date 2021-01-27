@@ -1,14 +1,12 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import MainHeader from './Headers/MainHeader';
-import MyTabs from './Navigation/MainTabNavigator';
+import RootNavigator from './Navigation/index';
 
 const MyApp = props => {
   return (
     
     <View style={styles.screen}>
-    <MainHeader titleText="WhatsApp"/>
-      <MyTabs />
+      <RootNavigator />
     </View>
    
   );
