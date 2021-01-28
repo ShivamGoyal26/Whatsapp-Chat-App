@@ -4,7 +4,7 @@ import {View, Text, StyleSheet} from 'react-native';
 const Status = props => {
     return(
         <View style={styles.Screen}>
-            <Text>Settings Screen</Text>
+            <Text>Status Screen</Text>
         </View>
     );
 };
