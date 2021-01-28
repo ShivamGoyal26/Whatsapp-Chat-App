@@ -1,6 +1,7 @@
 import React from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 import ChatListItem from '../components/ChatListItem/index';
+import NewMessageButton from '../components/NewMessageButton';
 import chatRooms from '../data/ChatRooms';
 
 const Chats = props => {
@@ -13,6 +14,7 @@ const Chats = props => {
         />}
         keyExtractor={(item) => item.id}
       />
+      <NewMessageButton />
     </View>
   );
 };

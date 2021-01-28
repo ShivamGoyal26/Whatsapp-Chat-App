@@ -10,6 +10,7 @@ import Colors from '../constants/Colors';
 import ChatRoomScreen from '../screens/ChatRoom';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import Contacts from '../screens/Contacts';
 
 const Root = createStackNavigator();
 
@@ -51,8 +52,6 @@ const RootNavigator = () =>
                     title: route.params.name,
                     headerStyle: {
                         backgroundColor: Colors.primaryColor,
-                        // elevation: 0,
-                        // shadowColor: null,
                     },
                     headerTintColor: '#fff',
                     headerRight: () => (
@@ -70,6 +69,18 @@ const RootNavigator = () =>
                     )
                 })
                 } />
+
+                <Root.Screen
+                name= "Contacts"
+                component={Contacts}
+                options={{
+                    headerStyle: {
+                        backgroundColor: Colors.primaryColor,
+                    },
+                    headerTintColor: '#fff',
+                }}
+                
+                />
 
         </Root.Navigator>
     </NavigationContainer>
