@@ -2,6 +2,8 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import RootNavigator from './Navigation/index';
 
+import { withAuthenticator } from 'aws-amplify-react-native'
+
 import Amplify from 'aws-amplify'
 import config from './src/aws-exports'
 Amplify.configure(config)
@@ -24,4 +26,4 @@ const styles = StyleSheet.create({
   
 });
 
-export default MyApp;
+export default withAuthenticator(MyApp)
